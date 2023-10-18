@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="logo">
-    <img src="{{ asset('img/products.jpg')}}" alt="Digital">
+    <img src="{{ asset('img/update.png')}}" alt="Digital">
   </div>
   <div class="container">
     @yield('conteudo')
