@@ -8,7 +8,11 @@
     <p>{{ $produto->original['description'] }}</p>
     <p>{{ $produto->original['brand'] }}</p>
     <p><strong>Preço: $R</strong> {{ $produto->original['price'] }}</p>
-    <p><img src={{ $produto->original['thumbnail'] }} class="img-detail" alt="images"></p>
+    <div class="produto-img">
+      @foreach($produto->original['images'] as $image)
+       <img src={{ $image }} alt="images" class="image-img-details">
+    @endforeach
+    </div>
     <p><strong>Categoria:</strong> {{ $produto->original['category'] }}</p>
     <a href="{{ route('home') }}">
       <button type="button">Home</button>
