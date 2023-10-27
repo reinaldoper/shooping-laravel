@@ -14,8 +14,8 @@
     @endforeach
     </div>
     <p><strong>Categoria:</strong> {{ $produto->original['category'] }}</p>
-    <a href="{{ route('home') }}">
-      <button type="button">Home</button>
-    </a>
+    <p class="footer">
+      <button type="button" onclick="window.location.href='{{route('home')}}'" class="button-home">Home</button>
+    </p>
   </div>
 @endsection

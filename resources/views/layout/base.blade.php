@@ -139,12 +139,37 @@
       margin-top: 10vh;
     }
 
-    button{
+    .button-details{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 10px;
+      margin: center;
       background-color: rgb(0, 255, 55);
       width: 10vw;
       cursor: pointer;
       border-radius: 8px;
       border: none !important;
+    }
+    .button-home{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 10px;
+      margin: center;
+      background-color: rgb(0, 255, 55);
+      width: 10vw;
+      cursor: pointer;
+      border-radius: 8px;
+      border: none !important;
+    }
+    .footer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
     }
   </style>
 </head>
